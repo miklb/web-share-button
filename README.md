@@ -6,3 +6,8 @@ I have been reading a lot of blog posts lately about HTML Web Components and the
 So when I was reading this post from Aaron Gustafson about how he's [progressively enhacing his share button](https://www.aaron-gustafson.com/notebook/sharing-in-the-age-of-3p-cookie-mageddon/), it sure sounded like what he was describing was an HTML web component. 
 
 Scott Jehl recently walked through writing a web component for [responsive video](https://scottjehl.com/posts/even-responsiver-video/) and I used Stefan Judis' [sparkly-text](https://github.com/stefanjudis/sparkly-text) as a starting point for this project.
+
+## Usage
+`index.html` provides a basic example using Aaron's orignal code from his [demo](https://codepen.io/aarongustafson/pen/eYxajwy). 
+
+The idea is you wrap your unordered list with `<web-share>` `</web-share>` tags and the component will add the share button to each list item.
