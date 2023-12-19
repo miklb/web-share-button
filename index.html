@@ -14,6 +14,80 @@
         max-width: 80ch;
         margin: 0 auto;
       }
+/* Style the default unordered list */
+
+          .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0.5rem 0 0;
+      padding: 0;
+      gap: 0.5rem;
+    }
+    .social-links--share {
+      gap: 0;
+    }
+    .social-links__item {
+      list-style: none;
+      margin: 0;
+    }
+    
+    .social-link {
+      border-radius: 0.375rem;
+      color: #fff;
+      display: inline-block;
+      height: 80%;
+      margin: 0;
+      padding: 4px 6px;
+      text-decoration: none;
+      transform: scale(0.75);
+      transition: text-decoration-color 0.25s ease, color 0.25s ease, background-color 0.25s ease;
+    }
+    .social-link__text {
+      position: absolute !important;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+      clip: rect(1px 1px 1px 1px);
+      clip: rect(1px, 1px, 1px, 1px);
+    }
+    .social-link__icon {
+      vertical-align: top;
+      display: inline-block;
+    }
+    .social-link__icon path {
+      fill: #fff;
+    }
+    .social-link--twitter {
+      background-color: #26c4f1;
+    }
+    .social-link--twitter:hover, .social-link--twitter:active, .social-link--twitter:focus {
+      background: #0b84a6;
+    }
+    .social-link--hacker-news {
+      background-color: #f60;
+    }
+    .social-link--hacker-news:hover, .social-link--hacker-news:active, .social-link--hacker-news:focus {
+      background: #993d00;
+    }
+    .social-link--facebook {
+      background-color: #306199;
+    }
+    .social-link--facebook:hover, .social-link--facebook:active, .social-link--facebook:focus {
+      background: #18304b;
+    }
+    .social-link--linkedin {
+      background-color: #007bb6;
+    }
+    .social-link--linkedin:hover, .social-link--linkedin:active, .social-link--linkedin:focus {
+      background: #003650;
+    }
+    .social-link--pinterest {
+      background-color: #b81621;
+    }
+    .social-link--pinterest:hover, .social-link--pinterest:active, .social-link--pinterest:focus {
+      background: #5d0b11;
+    }
     </style>
 
    

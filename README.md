@@ -10,4 +10,6 @@ Scott Jehl recently walked through writing a web component for [responsive video
 ## Usage
 `index.html` provides a basic example using Aaron's orignal code from his [demo](https://codepen.io/aarongustafson/pen/eYxajwy). 
 
+Note you'll want to style your unordered list for graceful degradation. The button style is only applied if the browser supports the web component. The example uses Aaron's original CSS.
+
 The idea is you wrap your unordered list with `<web-share>` `</web-share>` tags and the component will add the share button to each list item.
